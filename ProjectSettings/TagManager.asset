@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Portal
   - Water
   - UI
   - 
@@ -38,6 +38,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Skybox
+    uniqueID: 811277007
+    locked: 0
+  - name: Background
+    uniqueID: 2151753509
+    locked: 0
+  - name: Ground
+    uniqueID: 170089363
+    locked: 0
+  - name: OnGround
+    uniqueID: 777837887
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3262908293
+    locked: 0
+  - name: Sky
+    uniqueID: 1544655423
     locked: 0

@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class PlayerCharacterMovement : MonoBehaviour
 {
 
     [SerializeField]
     [Range(0,10)]
     float MoveSpeed = 1;
+
+    [SerializeField]
+    Rigidbody2D rigidbody;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,7 @@ public class CharacterMovement : MonoBehaviour
 
         Vector3 currentPostion = transform.position;
 
-        transform.position = currentPostion + new Vector3(inputX, inputY, 0) * MoveSpeed * Time.deltaTime;
+        rigidbody.MovePosition(currentPostion + new Vector3(inputX, inputY, 0) * MoveSpeed * Time.deltaTime);
+        //transform.position = currentPostion + new Vector3(inputX, inputY, 0) * MoveSpeed * Time.deltaTime;
     }
 }
