@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -97,7 +97,8 @@ GameObject:
   - component: {fileID: 2130358206152211158}
   - component: {fileID: 1186391487}
   - component: {fileID: 1186391486}
-  m_Layer: 0
+  - component: {fileID: 470156845}
+  m_Layer: 6
   m_Name: Billy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e6f109a25a447a4bb6ebd6f662fe60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 2
+  MoveSpeed: 4
   rigidbody: {fileID: 1186391487}
 --- !u!50 &1186391487
 Rigidbody2D:
@@ -223,3 +224,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0008844106, y: 0.03516634}
   m_Size: {x: 0.097769074, y: 0.049547873}
   m_Direction: 1
+--- !u!114 &470156845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130358206152211153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9fccb023600d6488d94f26aa483287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

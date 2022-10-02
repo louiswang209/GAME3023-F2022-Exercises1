@@ -16,7 +16,7 @@ public class PlayerCharacterMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hello World");
+        //Debug.Log("Hello World");
     }
 
     // Update is called once per frame
@@ -30,4 +30,15 @@ public class PlayerCharacterMovement : MonoBehaviour
         rigidbody.MovePosition(currentPostion + new Vector3(inputX, inputY, 0) * MoveSpeed * Time.deltaTime);
         //transform.position = currentPostion + new Vector3(inputX, inputY, 0) * MoveSpeed * Time.deltaTime;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Player collided with: " + collision.gameObject.name);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Player Triggered with: " + collision.gameObject.name);
+    }
 }
+
