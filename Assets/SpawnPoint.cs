@@ -22,7 +22,7 @@ public class SpawnPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(Player == null)
+        if(Player == null && playerPrefeb != null)
         {
             GameObject newPlayer = Instantiate(playerPrefeb, transform.position, Quaternion.identity);
             Player = newPlayer.GetComponent<Traveler>();

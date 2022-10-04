@@ -123,6 +123,128 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &90576470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5483226598821863617, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: playerPrefeb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.991
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858195709739916428, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_Name
+      value: EntranceFromOverworldSouthGate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+--- !u!1001 &991001680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5483226598821863617, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: playerPrefeb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.817
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858195709739916428, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
+      propertyPath: m_Name
+      value: EntranceFromOverworldNorthGate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
 --- !u!1 &1074152263
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +618,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!1001 &1597055856405225730
+--- !u!1001 &2083299045
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -505,19 +627,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1597055854586109288, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_Name
-      value: PortalTownToOverworld
+      value: PortalTownToOverworldSouthGate
       objectReference: {fileID: 0}
     - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.001
+      value: 0.758
       objectReference: {fileID: 0}
     - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.941
+      value: -0.273
       objectReference: {fileID: 0}
     - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -550,6 +672,71 @@ PrefabInstance:
     - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8357418795170825609, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: destinationSpawn
+      value: EntranceFromTownSouthGate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+--- !u!1001 &1597055856405225730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1597055854586109288, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_Name
+      value: PortalTownToOverworldNorthGate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.739
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597055854586109294, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8357418795170825609, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
+      propertyPath: destinationSpawn
+      value: EntranceFromTownNorthGate
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da2f497845a18844091d8b0ff0ed9dba, type: 3}
@@ -682,10 +869,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5483226598821863617, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
-      propertyPath: playerPrefeb
-      value: 
-      objectReference: {fileID: 2130358206152211153, guid: 6657dd079894bdb438cae127dfda541c, type: 3}
     - target: {fileID: 438672194528868378, guid: 3d37556a5ec82824bb30f77abc58bc6f, type: 3}
       propertyPath: m_RootOrder
       value: 5
